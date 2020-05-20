@@ -1,0 +1,46 @@
+[OBJ_CDVI]
+id, CHAR, 16
+name, CHAR, 60
+parent_id, CHAR, 16
+flags, INTEGER
+params, TEXT
+
+[OBJ_CDVI_EVENTS]
+main_id, OBJID
+source, TEXT
+event, TEXT
+enabled, SMALLINT
+markers, TEXT
+
+[OBJ_CDVI_SITE]
+id, CHAR, 16
+name, CHAR, 60
+parent_id, CHAR, 16
+flags, INTEGER
+acs_id, TEXT
+
+[OBJ_CDVI_SITE_CAMS]
+main_id, OBJID
+cam, OBJID
+
+[OBJ_CDVI_R]
+id, CHAR, 16
+name, CHAR, 60
+parent_id, CHAR, 16
+flags, INTEGER
+acs_id, TEXT
+
+[OBJ_CDVI_R_CAMS]
+main_id, OBJID
+cam, OBJID
+
+[OBJ_CDVI_D]
+id, CHAR, 16
+name, CHAR, 60
+parent_id, CHAR, 16
+flags, INTEGER
+acs_id, TEXT
+
+[OBJ_CDVI_D_CAMS]
+main_id, OBJID
+cam, OBJID

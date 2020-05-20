@@ -1,0 +1,13 @@
+{
+  "loginPostgreSQL": "postgres",
+  "passwordPostgreSQL": "postgres",
+  "IPPostgreSQL": "192.168.15.11",
+  "portPostgreSQL": "5432",
+  "securOSIP": "192.168.15.11",
+  "securOSID": "9",
+  "loginSQL": "iss",
+  "passwordSQL": "Issivs.1234",
+  "centaurIP": "127.0.0.1",
+  "loginCentaur": "admin",
+  "passwordCentaur": "admin"
+}

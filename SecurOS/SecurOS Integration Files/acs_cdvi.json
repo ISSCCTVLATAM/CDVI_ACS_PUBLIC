@@ -1,0 +1,15 @@
+{
+    "type": "CDVI",
+    "children":
+    [{
+        "type": "CDVI_SITE",
+        "children":[
+          {
+            "type":"CDVI_R"
+          },
+          {
+            "type":"CDVI_D"
+          }
+        ]
+    }]
+}

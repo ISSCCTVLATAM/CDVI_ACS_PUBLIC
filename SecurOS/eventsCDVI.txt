@@ -1,0 +1,131 @@
+514,Door open,DOOR_OPEN
+256,Controller cold reset,COLD_RESET
+257,Controller warm reset,WARM_RESET
+258,Controller AC power failure,AC_FAILURE
+259,Controller AC power restored,AC_RESTORED
+260,Controller battery low,BATERRY_LOW
+261,Controller battery restored,BATERY_RESTORED
+262,+5 power supply failure,DC_FAILURE
+263,+5 power supply restore,DC_RESTORE
+264,+12 power supply failure,DC_TW_FAILURE
+265,+12 power supply restore,DC_TW_RESTORE
+266,+24 power supply failure,DC_TF_FAILURE
+267,+24 power supply restore,DC_TF_RESTORE
+268,Controller battery trouble,BATERRY_TROUBLE
+269,Low battery: shutdown in 1 minute,SHUTDOWN_MINUTE
+270,Standalone mode started,SD_STARTED
+271,Local event buffer full,BUFFER_FULL
+272,Controller tamper alarm,TAMPER_ALARM
+273,Controller tamper restored,TAMPER_RESTORED
+274,Relay expander - online,RELAY_ONLINE
+275,Relay expander - comm. Failure,RELAY_FAILURE
+276,Relay expander - tamper alarm,RELAY_T_ALARM
+277,Relay expander - tamper restore,RELAY_T_RESTORE
+278,Relay expander - supply low,RELAY_S_LOW
+279,Relay expander - supply restore,RELAY_S_RESTORE
+280,Date/time modified by PC,DATE_M_PC
+512,Door forced open alarm,DOOR_F_ALARM
+513,Door forced open restore,DOOR_F_RESTORE
+515,Door closed,DOOR_CLOSED
+516,Door open too long,DOOR_OPEN
+517,Door left open,DOOR_OPEN_A
+518,Door unlocked by operator,DOOR_OPEN
+519,Door locked by operator,DOOR_CLOSED
+520,Door unlocked for period by operator,DOOR_PULSED
+521,Door unlocked by schedule,DOOR_OPEN
+522,Door locked by schedule,DOOR_CLOSED
+523,Door disabled by operator,DOOR_DISABLED
+524,Door enabled by operator,DOOR_ENABLED
+525,Interlock enabled by schedule,CDVI_EVENT
+526,Interlock disabled by schedule,CDVI_EVENT
+768,Request to exit granted,EXIT_GRANTED
+769,Request to exit denied,EXIT_DENIED
+770,Request to exit failed on schedule,EXIT_FAILED
+771,Request to exit enabled by schedule,EXIT_ENABLED
+772,Request to exit disabled by schedule,EXIT_DISABLED
+773,Request to exit denied - interlock active,EXIT_DENIED
+1024,Waiting for keypad code,WAITING_KEYPAD_CODE
+1025,Keypad timed out,KEYPAD_TIMEOUT
+1026,Incorrect keypad code,KEYPAD_CODE
+1027,Keypad enabled by schedule,KEYPAD_ENABLED
+1028,Keypad disabled by schedule,KEYPAD_DISABLED
+1280,Access granted,ACCESS_GRANTED
+1281,Access denied - schedule invalid,ACCESS_DENIED
+1282,Access denied - invalid access rights,ACCESS_DENIED
+1283,Access denied - card invalid,ACCESS_DENIED
+1284,Access denied - card number unknown,ACCESS_DENIED
+1285,Access denied - card lost,ACCESS_DENIED
+1286,Access denied - card stolen,ACCESS_DENIED
+1287,Access denied - card expired,ACCESS_DENIED
+1288,Access granted - valid P.I.N. entry,ACCESS_DENIED
+1289,Access denied - interlock active,ACCESS_DENIED
+1290,Access denied - door manually disabled,ACCESS_DENIED
+1291,Access denied - passback violation out,ACCESS_DENIED
+1292,Card traced,CARD_TRACED
+1293,Access granted - passback violation in,ACCESS_GRANTED
+1294,Access granted - passback violation out,ACCESS_GRANTED
+1295,Access denied - passback violation in,ACCESS_DENIED
+1296,Access granted - Antipassback Overide,ACCESS_GRANTED
+1297,Access granted - waiting for host,ACCESS_GRANTED
+1298,Access granted -- Floor selected,ACCESS_GRANTED
+1299,Acesss Denied -- Wrong floor selected,ACCESS_DENIED
+1300,Acesss Denied -- Invalid Floor group schedule,ACCESS_DENIED
+1301,Acesss Granted -- Interlock Overide,ACCESS_GRANTED
+1302,Acesss Granted -- Floor opened by schedule,ACCESS_GRANTED
+1536,Relay activated by schedule,RELAY_ACTIVATED
+1537,Relay deactivated by schedule,RELAY_DEACTIVATED
+1538,Relay activated by operator,RELAY_ACTIVATED
+1539,Relay deactivated by operator,RELAY_DEACTIVATED
+1540,Relay activated for period by operator,RELAY_ACTIVATED
+1541,Relay activated by input,RELAY_ACTIVATED
+1542,Relay activated by event,RELAY_ACTIVATED
+1543,Relay activated by pulsed schedule,RELAY_ACTIVATED
+1544,Relay group deactivated by operator,RELAY_G_DEACTIVATED
+1545,Relay group activated by input,RELAY_G_ACTIVATED
+1546,Relay group activated by event,RELAY_G_ACTIVATED
+1547,Relay group activated by operator,RELAY_G_ACTIVATED
+1792,Input in alarm,INPUT_ALARM
+1793,Input in tamper,INPUT_TAMPER
+1794,Input fault,INPUT_FAULT
+1795,Input restore/normal,INPUT_RESTORE
+1796,Input bypassed by input,INPUT_BYPASSED
+1797,Input bypass restore,INPUT_RESTORE
+1798,Input disabled by operator,CDVI_EVENT
+1799,Input enabled by operator,CDVI_EVENT
+1800,Input fault restored,CDVI_EVENT
+1801,Input tamper restored,CDVI_EVENT
+1802,Input disabled by schedule,CDVI_EVENT
+1803,Input enabled by schedule,CDVI_EVENT
+1804,Input group bypassed by input,CDVI_EVENT
+2048,Antipassback enabled by schedule,CDVI_EVENT
+2049,Antipassback disabled by schedule,CDVI_EVENT
+2050,Antipassback reset by schedule,CDVI_EVENT
+2051,Antipassback reset by input,CDVI_EVENT
+2304,Lift expander online,CDVI_EVENT
+2305,Lift expander offline,CDVI_EVENT
+2306,Lift expander tamper alarm,CDVI_EVENT
+2307,Lift expander tamper alarm restored,CDVI_EVENT
+2308,Lift expander AC Failure,CDVI_EVENT
+2309,Lift expander AC Failure Restored,CDVI_EVENT
+2310,Lift expander fire control override,CDVI_EVENT
+2311,Lift expander fire control override restored,CDVI_EVENT
+2312,Lift expander battery trouble,CDVI_EVENT
+2313,Lift expander battery trouble restored,CDVI_EVENT
+2314,Lift floor opened on schedule,CDVI_EVENT
+2315,Lift floor closed on schedule,CDVI_EVENT
+2316,Lift floor opened by operator,CDVI_EVENT
+2317,Lift floor closed by operator,CDVI_EVENT
+2318,Waiting for floor selection,CDVI_EVENT
+2319,Floor selection time out,CDVI_EVENT
+2560,Door Expander online,CDVI_EVENT
+2561,Door Expander offline,CDVI_EVENT
+2562,Door Expander Battery Trouble,CDVI_EVENT
+2563,Door Expander Battery Trouble Restored,CDVI_EVENT
+2564,Door Expander AC Failure,CDVI_EVENT
+2565,Door Expander AC Failure restored,CDVI_EVENT
+2566,Door Expander Auxiliary Failure,CDVI_EVENT
+2567,Door Expander Auxiliary Failure Restored,CDVI_EVENT
+2568,Door Expander tamper Alarm,CDVI_EVENT
+2569,Door Expander tamper Alarm Restored,CDVI_EVENT
+2816,LCD Module online,CDVI_EVENT
+2817,LCD Module Offline,CDVI_EVENT

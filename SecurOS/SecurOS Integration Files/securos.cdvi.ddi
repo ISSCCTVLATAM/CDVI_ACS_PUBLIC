@@ -1,0 +1,78 @@
+[OBJTYPE]
+CDVI     |CDVI      |ACS   |
+CDVI_SITE|CDVI Site |Sites |
+CDVI_R   |CDVI Relay|Relays|
+CDVI_D   |CDVI Door |Doors |
+
+[EVENT]
+CDVI_SITE|COLD_RESET         ||Controller cold reset               |X    |
+CDVI_SITE|WARM_RESET         ||Controller warm reset               |X    |
+CDVI_SITE|AC_FAILURE         ||Controller AC power failure         |X    |
+CDVI_SITE|AC_RESTORED        ||Controller AC power restored        |X    |
+CDVI_SITE|BATERRY_LOW        ||Controller battery low              |X    |
+CDVI_SITE|BATERY_RESTORED    ||Controller battery restored         |X    |
+CDVI_SITE|DC_FAILURE         ||+5 power supply failure             |X    |
+CDVI_SITE|DC_RESTORE         ||+5 power supply restore             |X    |
+CDVI_SITE|DC_TF_FAILURE      ||+24 power supply failure            |X    |
+CDVI_SITE|DC_TF_RESTORE      ||+24 power supply restore            |X    |
+CDVI_SITE|BATERRY_TROUBLE    ||Controller battery trouble          |X    |
+CDVI_SITE|SHUTDOWN_MINUTE    ||Low battery: shutdown in 1 minute   |X    |
+CDVI_SITE|SD_STARTED         ||Standalone mode started             |X    |
+CDVI_SITE|BUFFER_FULL        ||Local event buffer full             |X    |
+CDVI_SITE|TAMPER_ALARM       ||Controller tamper alarm             |X    |
+CDVI_SITE|TAMPER_RESTORED    ||Controller tamper restored          |X    |
+CDVI_SITE|DATE_M_PC          ||Date/time modified by PC            |     |
+CDVI_R   |RELAY_ONLINE       ||Relay expander - online             |X    |
+CDVI_R   |RELAY_FAILURE      ||Relay expander - comm. Failure      |X    |
+CDVI_R   |RELAY_T_ALARM      ||Relay expander - tamper alarm       |X    |
+CDVI_R   |RELAY_T_RESTORE    ||Relay expander - tamper restore     |X    |
+CDVI_R   |RELAY_S_LOW        ||Relay expander - supply low         |X    |
+CDVI_R   |RELAY_S_RESTORE    ||Relay expander - supply restore     |X    |
+CDVI_R   |RELAY_ACTIVATED    ||Relay activated by operator         |X    |
+CDVI_R   |RELAY_DEACTIVATED  ||Relay deactivated by operator       |X    |
+CDVI_R   |RELAY_G_DEACTIVATED||Relay group deactivated by operator |X    |
+CDVI_R   |RELAY_G_ACTIVATED  ||Relay group activated by operator   |X    |
+CDVI_D   |DOOR_F_ALARM       ||Door forced open alarm              |X    |
+CDVI_D   |DOOR_F_RESTORE     ||Door forced open restore            |X    |
+CDVI_D   |DOOR_OPEN          ||Door open                           |X    |
+CDVI_D   |DOOR_CLOSED        ||Door closed                         |X    |
+CDVI_D   |DOOR_OPEN_A        ||Door left open                      |X    |
+CDVI_D   |DOOR_PULSED        ||Door unlocked for period by operator|X    |
+CDVI_D   |DOOR_DISABLED      ||Door disabled by operator           |X    |
+CDVI_D   |DOOR_ENABLED       ||Door enabled by operator            |X    |
+CDVI_D   |EXIT_GRANTED       ||Request to exit granted             |X    |
+CDVI_D   |EXIT_DENIED        ||Request to exit denied              |X    |
+CDVI_D   |EXIT_FAILED        ||Request to exit failed on schedule  |X    |
+CDVI_D   |EXIT_ENABLED       ||Request to exit enabled by schedule |X    |
+CDVI_D   |EXIT_DISABLED      ||Request to exit disabled by schedule|X    |
+CDVI_D   |WAITING_KEYPAD_CODE||Waiting for keypad code             |X    |
+CDVI_D   |KEYPAD_TIMEOUT     ||Keypad timed out                    |X    |
+CDVI_D   |KEYPAD_CODE        ||Incorrect keypad code               |X    |
+CDVI_D   |KEYPAD_ENABLED     ||Keypad enabled by schedule          |X    |
+CDVI_D   |KEYPAD_DISABLED    ||Keypad disabled by schedule         |X    |
+CDVI_D   |ACCESS_GRANTED     ||Access granted                      |X    |
+CDVI_D   |ACCESS_DENIED      ||Access denied - card invalid        |X    |
+CDVI_D   |CARD_TRACED        ||Card traced                         |X    |
+CDVI_D   |INPUT_ALARM        ||Input in alarm                      |X    |
+CDVI_D   |INPUT_TAMPER       ||Input in tamper                     |X    |
+CDVI_D   |INPUT_FAULT        ||Input fault                         |X    |
+CDVI_D   |INPUT_RESTORE      ||Input restore/normal                |X    |
+CDVI_D   |INPUT_BYPASSED     ||Input bypassed by input             |X    |
+CDVI_D   |INPUT_RESTORE      ||Input bypass restore                |X    |
+CDVI_D   |CDVI_EVENT         ||CDVI event, please rewrite this     |X    |
+
+[REACT]
+CDVI_D|OPEN |                              |               |Open entrance |   |
+CDVI_D|CLOSE|                              |               |Close entrance|   |
+
+[STATE]
+CDVI_R|NORMAL||   |                |Normal|
+CDVI_R|ALARM ||B  |                |Alarm |
+CDVI_D|OPENED||B  |                |Opened|
+CDVI_D|CLOSED||B  |                |Closed|
+CDVI_D|NORMAL||   |                |Normal|
+
+[MARKER]
+
+[STATE_RULE]
+
